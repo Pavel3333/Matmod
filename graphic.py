@@ -79,8 +79,6 @@ class Layout(namedtuple('Layout', ('title', 'start', 'end'))):
 
             axis.plot(xValues, yValues, label=plot.label)
 
-        print('values:', values)
-
         axis.set_title(self.title)
         axis.set_ylabel(self._Y_LABEL)
         axis.set_xlim(xmin=self.start, xmax=self.end)
@@ -178,8 +176,6 @@ class Figure(object):
         pyplot.show()
 
     def onTextChanged(self, text):
-        print('text changed:', text)
-
         if not text:
             self.textLabel.set_val('')
             return

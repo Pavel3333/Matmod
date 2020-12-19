@@ -1,0 +1,20 @@
+{
+	"Heating system": "Система отопления",
+
+	"Square Footage": "Площадь отапливаемых домов, м²",
+	"Street Temperature": "Температура на улице, °C",
+	"Water Temperature": "Температура воды, подаваемой в трубы, °C",
+
+	"Low square": "Малая площадь",
+	"Medium square": "Средняя площадь",
+	"Big square": "Большая площадь",
+
+	"Low temperature": "Низкая температура",
+	"Medium temperature": "Средняя температура",
+	"High temperature": "Высокая температура",
+
+	"Water temperature:": "Введите температуру воды (°C):",
+	"Membership function value:": "Значение функции принадлежности:",
+
+	"Incorrect water temperature value": "Неверное значение температуры воды"
+}
